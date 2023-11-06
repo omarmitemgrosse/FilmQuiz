@@ -131,6 +131,12 @@
     <EmbeddedResource Include="frmQuestion1.resx">
       <DependentUpon>frmQuestion1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmQuestion2.resx">
+      <DependentUpon>frmQuestion2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuestion3.resx">
+      <DependentUpon>frmQuestion3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -164,6 +170,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\4ca44300-3662-4823-a1b2-091ea60f1064_c7tn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb-1920-971290.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2pac-wallpaper-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dmx-press-bw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8-mile-eminem-auch-als-leinwandstar-sofort-an-der-spitze-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

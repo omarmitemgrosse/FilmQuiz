@@ -24,51 +24,37 @@ Partial Class frmQuestion1
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnNext = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.btnAnswer4 = New System.Windows.Forms.RadioButton()
         Me.btnAnswer3 = New System.Windows.Forms.RadioButton()
         Me.btnAnswer2 = New System.Windows.Forms.RadioButton()
         Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(288, 88)
+        Me.Label1.Font = New System.Drawing.Font("MS PGothic", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(192, 73)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.Size = New System.Drawing.Size(399, 35)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Label1"
+        Me.Label1.Text = "Which Year did 2 Pac die?"
         '
         'btnNext
         '
+        Me.btnNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnNext.Location = New System.Drawing.Point(667, 349)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(75, 23)
+        Me.btnNext.Size = New System.Drawing.Size(111, 50)
         Me.btnNext.TabIndex = 1
-        Me.btnNext.Text = "Button1"
+        Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(62, 167)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(125, 113)
-        Me.PictureBox1.TabIndex = 2
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Location = New System.Drawing.Point(628, 155)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(114, 125)
-        Me.PictureBox2.TabIndex = 3
-        Me.PictureBox2.TabStop = False
         '
         'GroupBox1
         '
@@ -81,17 +67,17 @@ Partial Class frmQuestion1
         Me.GroupBox1.Size = New System.Drawing.Size(304, 154)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
+        Me.GroupBox1.Text = "'"
         '
         'btnAnswer4
         '
         Me.btnAnswer4.AutoSize = True
         Me.btnAnswer4.Location = New System.Drawing.Point(7, 104)
         Me.btnAnswer4.Name = "btnAnswer4"
-        Me.btnAnswer4.Size = New System.Drawing.Size(90, 17)
+        Me.btnAnswer4.Size = New System.Drawing.Size(49, 17)
         Me.btnAnswer4.TabIndex = 3
         Me.btnAnswer4.TabStop = True
-        Me.btnAnswer4.Text = "RadioButton4"
+        Me.btnAnswer4.Text = "2015"
         Me.btnAnswer4.UseVisualStyleBackColor = True
         '
         'btnAnswer3
@@ -99,10 +85,10 @@ Partial Class frmQuestion1
         Me.btnAnswer3.AutoSize = True
         Me.btnAnswer3.Location = New System.Drawing.Point(7, 81)
         Me.btnAnswer3.Name = "btnAnswer3"
-        Me.btnAnswer3.Size = New System.Drawing.Size(90, 17)
+        Me.btnAnswer3.Size = New System.Drawing.Size(49, 17)
         Me.btnAnswer3.TabIndex = 2
         Me.btnAnswer3.TabStop = True
-        Me.btnAnswer3.Text = "RadioButton3"
+        Me.btnAnswer3.Text = "2000"
         Me.btnAnswer3.UseVisualStyleBackColor = True
         '
         'btnAnswer2
@@ -110,10 +96,10 @@ Partial Class frmQuestion1
         Me.btnAnswer2.AutoSize = True
         Me.btnAnswer2.Location = New System.Drawing.Point(7, 57)
         Me.btnAnswer2.Name = "btnAnswer2"
-        Me.btnAnswer2.Size = New System.Drawing.Size(90, 17)
+        Me.btnAnswer2.Size = New System.Drawing.Size(49, 17)
         Me.btnAnswer2.TabIndex = 1
         Me.btnAnswer2.TabStop = True
-        Me.btnAnswer2.Text = "RadioButton2"
+        Me.btnAnswer2.Text = "1998"
         Me.btnAnswer2.UseVisualStyleBackColor = True
         '
         'btnAnswer1
@@ -121,10 +107,31 @@ Partial Class frmQuestion1
         Me.btnAnswer1.AutoSize = True
         Me.btnAnswer1.Location = New System.Drawing.Point(7, 33)
         Me.btnAnswer1.Name = "btnAnswer1"
-        Me.btnAnswer1.Size = New System.Drawing.Size(14, 13)
+        Me.btnAnswer1.Size = New System.Drawing.Size(49, 17)
         Me.btnAnswer1.TabIndex = 0
         Me.btnAnswer1.TabStop = True
+        Me.btnAnswer1.Text = "1996"
         Me.btnAnswer1.UseVisualStyleBackColor = True
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.FilmQuiz.My.Resources.Resources._2pac_wallpaper_preview
+        Me.PictureBox2.Location = New System.Drawing.Point(568, 124)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(210, 206)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 3
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.FilmQuiz.My.Resources.Resources.thumb_1920_971290
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 124)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(220, 218)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
         '
         'frmQuestion1
         '
@@ -138,10 +145,10 @@ Partial Class frmQuestion1
         Me.Controls.Add(Me.Label1)
         Me.Name = "frmQuestion1"
         Me.Text = "frmQuestion1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

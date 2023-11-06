@@ -23,7 +23,7 @@ Partial Class frmMain
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lblHipHopQuiz = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtName = New System.Windows.Forms.TextBox()
         Me.btnQuit = New System.Windows.Forms.Button()
         Me.btnStart = New System.Windows.Forms.Button()
         Me.txtPlayerName = New System.Windows.Forms.Label()
@@ -50,16 +50,16 @@ Partial Class frmMain
         Me.lblHipHopQuiz.TabIndex = 0
         Me.lblHipHopQuiz.Text = "Hip Hop Quiz"
         '
-        'TextBox1
+        'txtName
         '
-        Me.TextBox1.Location = New System.Drawing.Point(302, 340)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(191, 20)
-        Me.TextBox1.TabIndex = 2
+        Me.txtName.Location = New System.Drawing.Point(302, 340)
+        Me.txtName.Name = "txtName"
+        Me.txtName.Size = New System.Drawing.Size(191, 20)
+        Me.txtName.TabIndex = 2
         '
         'btnQuit
         '
-        Me.btnQuit.Font = New System.Drawing.Font("Minion Pro", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnQuit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnQuit.Location = New System.Drawing.Point(713, 311)
         Me.btnQuit.Name = "btnQuit"
         Me.btnQuit.Size = New System.Drawing.Size(84, 41)
@@ -69,10 +69,10 @@ Partial Class frmMain
         '
         'btnStart
         '
-        Me.btnStart.Font = New System.Drawing.Font("Minion Pro", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnStart.Location = New System.Drawing.Point(713, 358)
         Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(84, 37)
+        Me.btnStart.Size = New System.Drawing.Size(113, 37)
         Me.btnStart.TabIndex = 4
         Me.btnStart.Text = "START"
         Me.btnStart.UseVisualStyleBackColor = True
@@ -88,10 +88,10 @@ Partial Class frmMain
         'lblPlayerName
         '
         Me.lblPlayerName.AutoSize = True
-        Me.lblPlayerName.Font = New System.Drawing.Font("Minion Pro", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPlayerName.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPlayerName.Location = New System.Drawing.Point(183, 335)
         Me.lblPlayerName.Name = "lblPlayerName"
-        Me.lblPlayerName.Size = New System.Drawing.Size(113, 26)
+        Me.lblPlayerName.Size = New System.Drawing.Size(129, 24)
         Me.lblPlayerName.TabIndex = 10
         Me.lblPlayerName.Text = "Player Name"
         '
@@ -159,7 +159,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.txtPlayerName)
         Me.Controls.Add(Me.btnStart)
         Me.Controls.Add(Me.btnQuit)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtName)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lblHipHopQuiz)
         Me.Name = "frmMain"
@@ -176,7 +176,7 @@ Partial Class frmMain
 
     Friend WithEvents lblHipHopQuiz As Label
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtName As TextBox
     Friend WithEvents btnQuit As Button
     Friend WithEvents btnStart As Button
     Friend WithEvents txtPlayerName As Label
